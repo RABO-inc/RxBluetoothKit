@@ -47,6 +47,19 @@
 		0A7B28331F9F1B39003F950E /* AdvertisementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C0C1CBE3DEE005DEA5B /* AdvertisementData.swift */; };
 		0A7B28341F9F1B39003F950E /* BluetoothState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EF38C81D86EE1F00F9F468 /* BluetoothState.swift */; };
 		0A7B28351F9F1C08003F950E /* RxBluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2666FCEE1CCE42A5005E81CE /* RxBluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		175956652B96F0B30020EED3 /* RxTest-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 175956642B96F0B30020EED3 /* RxTest-Dynamic */; };
+		175956662B96F0B30020EED3 /* RxTest-Dynamic in Copy Frameworks */ = {isa = PBXBuildFile; productRef = 175956642B96F0B30020EED3 /* RxTest-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		175956682B96F0EF0020EED3 /* RxTest-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 175956672B96F0EF0020EED3 /* RxTest-Dynamic */; };
+		175956692B96F0EF0020EED3 /* RxTest-Dynamic in CopyFiles */ = {isa = PBXBuildFile; productRef = 175956672B96F0EF0020EED3 /* RxTest-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1759566B2B96F0FB0020EED3 /* RxTest-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 1759566A2B96F0FB0020EED3 /* RxTest-Dynamic */; };
+		1759566C2B96F0FB0020EED3 /* RxTest-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 1759566A2B96F0FB0020EED3 /* RxTest-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		17F4CA032B96E1ED009CDF46 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 17F4CA022B96E1ED009CDF46 /* RxSwift */; };
+		17F4CA052B96E1F1009CDF46 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 17F4CA042B96E1F1009CDF46 /* RxSwift */; };
+		17F4CA072B96E1F6009CDF46 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 17F4CA062B96E1F6009CDF46 /* RxSwift */; };
+		17F4CA092B96E1FB009CDF46 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 17F4CA082B96E1FB009CDF46 /* RxSwift */; };
+		17F4CA0B2B96E206009CDF46 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 17F4CA0A2B96E206009CDF46 /* RxSwift */; };
+		17F4CA0D2B96E20C009CDF46 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 17F4CA0C2B96E20C009CDF46 /* RxSwift */; };
+		17F4CA0F2B96E214009CDF46 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 17F4CA0E2B96E214009CDF46 /* RxSwift */; };
 		1D1B99D520AEB25C00464AD6 /* PeripheralManagerRestoredState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B99D420AEB25C00464AD6 /* PeripheralManagerRestoredState.swift */; };
 		1D1B99D720AEB27C00464AD6 /* CentralManagerRestoredState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B99D620AEB27C00464AD6 /* CentralManagerRestoredState.swift */; };
 		1D1B99DA20AEBE3200464AD6 /* _CentralManagerRestoredState.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B99D820AEBE1800464AD6 /* _CentralManagerRestoredState.generated.swift */; };
@@ -293,6 +306,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		1759566D2B96F0FB0020EED3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1759566C2B96F0FB0020EED3 /* RxTest-Dynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		17F4C9F52B96E048009CDF46 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +363,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				175956662B96F0B30020EED3 /* RxTest-Dynamic in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +374,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				175956692B96F0EF0020EED3 /* RxTest-Dynamic in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +491,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F4CA072B96E1F6009CDF46 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +499,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F4CA092B96E1FB009CDF46 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +507,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1759566B2B96F0FB0020EED3 /* RxTest-Dynamic in Frameworks */,
+				17F4CA0F2B96E214009CDF46 /* RxSwift in Frameworks */,
 				0A7B27FC1F9F190F003F950E /* RxBluetoothKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +517,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F4CA032B96E1ED009CDF46 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +525,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175956652B96F0B30020EED3 /* RxTest-Dynamic in Frameworks */,
+				17F4CA0B2B96E206009CDF46 /* RxSwift in Frameworks */,
 				2666FD8E1CCE457C005E81CE /* RxBluetoothKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +535,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F4CA052B96E1F1009CDF46 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +543,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175956682B96F0EF0020EED3 /* RxTest-Dynamic in Frameworks */,
+				17F4CA0D2B96E20C009CDF46 /* RxSwift in Frameworks */,
 				2666FDAD1CCE4626005E81CE /* RxBluetoothKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -919,6 +955,7 @@
 			);
 			name = "RxBluetoothKit watchOS";
 			packageProductDependencies = (
+				17F4CA062B96E1F6009CDF46 /* RxSwift */,
 			);
 			productName = RxBluetoothKit;
 			productReference = 0A7B27C71F9F1682003F950E /* RxBluetoothKit.framework */;
@@ -941,6 +978,7 @@
 			);
 			name = "RxBluetoothKit tvOS";
 			packageProductDependencies = (
+				17F4CA082B96E1FB009CDF46 /* RxSwift */,
 			);
 			productName = RxBluetoothKit;
 			productReference = 0A7B27F31F9F190F003F950E /* RxBluetoothKit.framework */;
@@ -953,6 +991,7 @@
 				0A7B27F71F9F190F003F950E /* Sources */,
 				0A7B27F81F9F190F003F950E /* Frameworks */,
 				0A7B27F91F9F190F003F950E /* Resources */,
+				1759566D2B96F0FB0020EED3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -960,6 +999,10 @@
 				0A7B27FE1F9F190F003F950E /* PBXTargetDependency */,
 			);
 			name = "RxBluetoothKit tvOSTests";
+			packageProductDependencies = (
+				17F4CA0E2B96E214009CDF46 /* RxSwift */,
+				1759566A2B96F0FB0020EED3 /* RxTest-Dynamic */,
+			);
 			productName = RxBluetoothKitTests;
 			productReference = 0A7B27FB1F9F190F003F950E /* RxBluetoothKit tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -982,6 +1025,7 @@
 			);
 			name = "RxBluetoothKit iOS";
 			packageProductDependencies = (
+				17F4CA022B96E1ED009CDF46 /* RxSwift */,
 			);
 			productName = "RxBluetoothKit iOS";
 			productReference = 2666FD841CCE457C005E81CE /* RxBluetoothKit.framework */;
@@ -1003,6 +1047,10 @@
 				2666FD901CCE457C005E81CE /* PBXTargetDependency */,
 			);
 			name = "RxBluetoothKit iOSTests";
+			packageProductDependencies = (
+				17F4CA0A2B96E206009CDF46 /* RxSwift */,
+				175956642B96F0B30020EED3 /* RxTest-Dynamic */,
+			);
 			productName = "RxBluetoothKit iOSTests";
 			productReference = 2666FD8D1CCE457C005E81CE /* RxBluetoothKit iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -1024,6 +1072,7 @@
 			);
 			name = "RxBluetoothKit macOS";
 			packageProductDependencies = (
+				17F4CA042B96E1F1009CDF46 /* RxSwift */,
 			);
 			productName = "RxBluetoothKit OSX";
 			productReference = 2666FDA31CCE4626005E81CE /* RxBluetoothKit.framework */;
@@ -1044,6 +1093,10 @@
 				2666FDAF1CCE4626005E81CE /* PBXTargetDependency */,
 			);
 			name = "RxBluetoothKit macOSTests";
+			packageProductDependencies = (
+				17F4CA0C2B96E20C009CDF46 /* RxSwift */,
+				175956672B96F0EF0020EED3 /* RxTest-Dynamic */,
+			);
 			productName = "RxBluetoothKit OSXTests";
 			productReference = 2666FDAC1CCE4626005E81CE /* RxBluetoothKit macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -2193,6 +2246,59 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		175956642B96F0B30020EED3 /* RxTest-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F4C9F12B96E00E009CDF46 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxTest-Dynamic";
+		};
+		175956672B96F0EF0020EED3 /* RxTest-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F4C9F12B96E00E009CDF46 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxTest-Dynamic";
+		};
+		1759566A2B96F0FB0020EED3 /* RxTest-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F4C9F12B96E00E009CDF46 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxTest-Dynamic";
+		};
+		17F4CA022B96E1ED009CDF46 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F4C9F12B96E00E009CDF46 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		17F4CA042B96E1F1009CDF46 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F4C9F12B96E00E009CDF46 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		17F4CA062B96E1F6009CDF46 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F4C9F12B96E00E009CDF46 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		17F4CA082B96E1FB009CDF46 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F4C9F12B96E00E009CDF46 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		17F4CA0A2B96E206009CDF46 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F4C9F12B96E00E009CDF46 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		17F4CA0C2B96E20C009CDF46 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F4C9F12B96E00E009CDF46 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		17F4CA0E2B96E214009CDF46 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F4C9F12B96E00E009CDF46 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1299BB41CBE3D52005DEA5B /* Project object */;
 }
