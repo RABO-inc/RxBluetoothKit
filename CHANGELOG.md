@@ -1,3 +1,8 @@
+# 6.1.0
+- Updated RxSwift version to 6.x.x
+- Migrated Carthage to SPM
+- Increased deployment target for iOS 13.0, macOS 10.14, watchOS 6.0, tvOS 13.0
+
 # 6.0.1
 - iOS 17 support (#1, #2)
 
